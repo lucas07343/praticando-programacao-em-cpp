@@ -11,7 +11,7 @@ int main()
 
     while (x != 0) {
         if (x % 2 != 0) {
-            x = x + 1;
+            x++;
         }
 
         soma = 5 * x + 20;

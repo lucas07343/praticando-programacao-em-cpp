@@ -22,15 +22,21 @@ int main()
     }
 
     qteNegativos = 0;
-    cout << endl << "NUMEROS NEGATIVOS:" << endl;
     for (i = 0; i < n; i++) {
         if (vet[i] < 0) {
-            cout << vet[i] << endl;
-            qteNegativos += 1;
+            qteNegativos++;
         }
     }
-
-    if (qteNegativos == 0) {
+    
+    if (qteNegativos != 0) {
+        cout << endl << "NUMEROS NEGATIVOS:" << endl;
+        for (i = 0; i < n; i++) {
+            if (vet[i] < 0) {
+                cout << vet[i] << endl;
+            }
+        }
+    }
+    else {
         cout << endl << "NAO TEM NUMEROS NEGATIVOS!";
     }
 

@@ -37,7 +37,7 @@ int main()
     qteMenores = 0;
     for (i = 0; i < n; i++) {
         if (idades[i] < 16) {
-            qteMenores += 1;
+            qteMenores++;
         }
     }
 

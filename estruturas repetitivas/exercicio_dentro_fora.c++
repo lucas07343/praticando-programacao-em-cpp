@@ -16,10 +16,10 @@ int main()
         cin >> x;
 
         if (x >= 10 && x <= 20) {
-            dentro = dentro + 1;
+            dentro++;
         }
         else {
-            fora = fora + 1;
+            fora++;
         }
     }
 
