@@ -12,6 +12,7 @@ int main()
     int mat[n][n];
 
     for (i = 0; i < n; i++) {
+        cout << endl;
         for (j = 0; j < n; j++) {
             cout << endl << "Elemento [" << i << "," << j << "]:";
             cin >> mat[i][j];
